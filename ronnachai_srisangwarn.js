@@ -25,7 +25,9 @@ function getMinMove(start, target) {
     ];
     // ans = targetx;
     // console.log(targetx);
-    console.log(a[x][y]);
+    // console.log(a[x][y]);
+    ans = a[x][y];
+    console.log(ans);
     return ans;
 }
-getMinMove("a1", "h8");
+getMinMove("d4", "b2");
